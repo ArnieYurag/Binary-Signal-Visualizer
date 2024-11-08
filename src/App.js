@@ -9,7 +9,7 @@ function App() {
   const [binary, setBinary] = useState('');
   return (
     <div className="App">
-      <h1 className="app-title">Binary Signal Encoding Visualizer</h1>
+      <h1 className="app-title">Binary Signal Visualizer</h1>
       <WindowInterface>
       <Input onEncodingChange={setEncoding} onBinaryChange={setBinary} />
       <Output encoding={encoding} binary={binary} />
